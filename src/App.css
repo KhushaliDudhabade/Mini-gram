@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 90%;
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  margin-left: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.line{
+  width: 90%;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(112, 118, 118);
+  margin-bottom: 50px;
+  margin-left: 40px;
+}
+.home-page {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post-card {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 8px;
+  width: 23%;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  margin: 10px;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+}
+
+.post-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.post-card h3 {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+}
+
+.post-card p {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin: 0;
+  color: #ccc;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Detail Page */
+.detail-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 8px;
+  border: 1px solid #555;
+}
+
+.detail-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.detail-page img {
+  width: 80%;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  height: 500px;
+  margin-left: 80px;
+}
+
+.detail-page p {
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #ccc;
 }

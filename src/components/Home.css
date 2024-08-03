@@ -1,0 +1,88 @@
+/* src/components/Home.css */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .post-card {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 8px;
+    width: 23%;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .post-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .post-card h3 {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+  }
+  
+  .post-card p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    margin: 0;
+    color: #ccc;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Detail Page */
+  .detail-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid #555;
+  }
+  
+  .detail-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .detail-page img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .detail-page p {
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #ccc;
+  }
+  
