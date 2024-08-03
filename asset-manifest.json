@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mini-gram/static/css/main.7422ede1.css",
+    "main.js": "/Mini-gram/static/js/main.df85333d.js",
+    "index.html": "/Mini-gram/index.html",
+    "main.7422ede1.css.map": "/Mini-gram/static/css/main.7422ede1.css.map",
+    "main.df85333d.js.map": "/Mini-gram/static/js/main.df85333d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7422ede1.css",
+    "static/js/main.df85333d.js"
+  ]
+}
