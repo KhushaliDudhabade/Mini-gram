@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Mini-gram/static/css/main.7422ede1.css",
-    "main.js": "/Mini-gram/static/js/main.df85333d.js",
+    "main.js": "/Mini-gram/static/js/main.dc8b184a.js",
     "index.html": "/Mini-gram/index.html",
     "main.7422ede1.css.map": "/Mini-gram/static/css/main.7422ede1.css.map",
-    "main.df85333d.js.map": "/Mini-gram/static/js/main.df85333d.js.map"
+    "main.dc8b184a.js.map": "/Mini-gram/static/js/main.dc8b184a.js.map"
   },
   "entrypoints": [
     "static/css/main.7422ede1.css",
-    "static/js/main.df85333d.js"
+    "static/js/main.dc8b184a.js"
   ]
 }
